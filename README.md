@@ -1,6 +1,6 @@
 ESP8266 WiFi and MQTT Communication
 ===========================================
-This tutorial is mainly focused on connecting the ESP8266 with WIFI and Communicate with NodeRed through MQTT Protocol. Read more about NodeRed [here: https://nodered.org/](https://nodered.org/)
+This tutorial is mainly focused on connecting the ESP8266 with WIFI and Communicate with NodeRed through MQTT Protocol. Read more about NodeRed here: [https://nodered.org/](https://nodered.org/)
 
 # Installing ESP8266/NodeMCU Board on Arduino IDE
 Starting with 1.6.4, Arduino allows installation of third-party platform packages using Boards Manager. We have packages available for Windows, Mac OS, and Linux (32 and 64 bit).
@@ -64,7 +64,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 That's all! Now you can easily communicate between nodered and esp8266/nodemcu.
 
-If you are facing any issues or unable to use nodered, just send me an email: (sayhi@rafat.me)[mailto:sayhi@rafat.me]
+If you are facing any issues or unable to use nodered, just send me an email: [sayhi@rafat.me](mailto:sayhi@rafat.me)
 
 <b>I have also servers available for nodered. You can email me to get a server with nodered.</b>
 
