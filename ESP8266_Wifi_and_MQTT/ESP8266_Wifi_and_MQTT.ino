@@ -12,14 +12,14 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 //Wifi Connection
-const char* ssid = "Easysense";
-const char* password = "easy2018sense";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 //MQTT Configuration
-const char* mqttServer = "103.108.140.187";
+const char* mqttServer = "SERVER_IP";
 const int mqttPort = 8883;
-const char* mqttUser = "coffee";
-const char* mqttPassword = "coffeeislove";
+const char* mqttUser = "MQTT_USERNAME";
+const char* mqttPassword = "MQTT_PASSWORD";
 
 //Auto generated device id
 const String deviceID = String(random(0xffff), HEX);
